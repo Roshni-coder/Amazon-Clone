@@ -19,7 +19,7 @@
     width: 150px;
 }
 .logo{
-    background-image: url(amazon_logo.png);
+    background-image: url(./Images/amazon_logo.png);
     background-size: cover;
     height:60px;
     width: 100%;
@@ -106,14 +106,14 @@ span{
     display:flex;
     color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
  }
  .mainpanel:hover{
     text-decoration: underline;
  }
  .panel-ops p{
      display: inline;
-     margin-left: 10px;
+     margin-left: 5px;
  }
  .panel-ops{
     width: 80%;
@@ -128,7 +128,7 @@ span{
 
                 /*here section*/
 .hero-section{
-    background-image: url(hero_image.jpg);
+    background-image: url(./Images/hero_image.jpg);
     background-size: cover;
     height: 400px; 
     display: flex;   
@@ -143,36 +143,36 @@ span{
 }           
 @keyframes backimage{
     0% {
-        background-image:url(hero_image.jpg) ;
+        background-image:url(./Images/hero_image.jpg) ;
         height: 400px; 
         background-size: cover;
         top: 0px;
         left: 500;
     }
     20%{
-        background-image:url(amazon2.jpg) ;
+        background-image:url(./Images/amazon2.jpg) ;
         height: 400px; 
         background-size: cover;
         top: 0px;
         right: 500px;
     }
     40%{
-        background-image:url(amazon3.jpg) ;
+        background-image:url(./Images/amazon3.jpg) ;
         height: 400px; 
         background-size: cover;
     }
     60%{
-        background-image:url(amazon4.jpg) ;
+        background-image:url(./Images/amazon4.jpg) ;
         height: 400px; 
         background-size: cover;
     }
     80%{
-        background-image:url(amazon5.jpg) ;
+        background-image:url(./Images/amazon5.jpg) ;
         height: 400px; 
         background-size: cover;
     }
     100%{
-        background-image:url(amazon6.jpg) ;
+        background-image:url(./Images/amazon5.jpg) ;
         height: 400px; 
         background-size: cover;
     }
@@ -208,15 +208,15 @@ span{
     display: inline-block;
 }
 .box-img{
-    height: 250px;
+    height: 270px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.50rem;
     transition: all 1s ease-in-out.3s;
 }
 .box-img:hover{
-    height: 260px;
+    height: 280px;
 }
 h2{
     font-size: 15px;
@@ -271,7 +271,7 @@ ul a{
     justify-content: center;
 }
 .foot-logo{
-    background-image: url(amazon_logo.png);
+    background-image: url(./Images/amazon_logo.png);
     background-size: cover;
     height:50px;
     width: 100px;
